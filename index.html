@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ProstranstvoMax</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            content="организация пространства, интерьер 2025, эргономика дома, комфортные зоны, дизайн интерьера, уютное жилье"
+            name="keywords"
+        />
+        <meta
+            content="Узнайте, как создать комфортное и эргономичное пространство в доме с помощью правильного зонирования, освещения, цветовой гаммы и расстановки мебели в 2025 году."
+            name="description"
+        />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:wght@500&family=Work+Sans&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-grow text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-light sticky-top p-0">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a
+                    href="index.html"
+                    class="navbar-brand bg-primary py-4 px-5 me-0"
+                >
+                    <h1 class="mb-0">ProstranstvoMax</h1>
+                </a>
+                <button
+                    type="button"
+                    class="navbar-toggler me-4"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse p-3" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto">
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Главная</a
+                        >
+                        <a href="about.html" class="nav-item nav-link">О нас</a>
+                        <a href="testimonial.html" class="nav-item nav-link"
+                            >Партнеры</a
+                        >
+                        <a href="blog.html" class="nav-item nav-link">Блог</a>
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Контакты</a
+                        >
+                    </div>
+                    <div class="d-flex">
+                        <a
+                            class="btn btn-primary btn-sm-square me-3"
+                            href="https://www.facebook.com/"
+                            target="_blank"
+                        >
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a
+                            class="btn btn-primary btn-sm-square me-3"
+                            href="https://www.instagram.com/"
+                            target="_blank"
+                        >
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a
+                            class="btn btn-primary btn-sm-square"
+                            href="https://www.linkedin.com/company/"
+                            target="_blank"
+                        >
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <div class="container-fluid p-0 hero-header bg-light mb-5">
+            <div class="container p-0">
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-6 hero-header-text py-5">
+                        <div class="py-5 px-3 ps-lg-0">
+                            <h1
+                                class="font-dancing-script text-primary animated slideInLeft"
+                            >
+                                Добро пожаловать
+                            </h1>
+                            <h1 class="display-1 mb-4 animated slideInLeft">
+                                Как организовать пространство
+                            </h1>
+                            <div class="row g-4 animated slideInLeft">
+                                <div class="col-md-12">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-square btn btn-primary flex-shrink-0"
+                                        >
+                                            <i
+                                                class="fa fa-envelope text-dark"
+                                            ></i>
+                                        </div>
+                                        <div class="px-3">
+                                            <h5 class="text-primary mb-0">
+                                                Связаться по Email
+                                            </h5>
+                                            <p class="fs-5 text-dark mb-0">
+                                                prostranstvo_max@gmail.com
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div
+                            class="owl-carousel header-carousel animated fadeIn"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="img/hero-slider-1.jpg"
+                                alt="Интерьер комфортной комнаты"
+                            />
+                            <img
+                                class="img-fluid"
+                                src="img/hero-slider-2.jpg"
+                                alt="Эргономичная рабочая зона"
+                            />
+                            <img
+                                class="img-fluid"
+                                src="img/hero-slider-3.jpg"
+                                alt="Зона отдыха с комфортом"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+        <!-- Our Approach Start -->
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
+                        <img
+                            class="img-fluid mb-3"
+                            src="img/about.jpg"
+                            alt="Эргономичный интерьер"
+                        />
+                        <div class="d-flex align-items-center bg-light">
+                            <div
+                                class="btn-square flex-shrink-0 bg-primary"
+                                style="width: 100px; height: 100px"
+                            >
+                                <i class="fa fa-phone fa-2x text-dark"></i>
+                            </div>
+                            <div class="px-3">
+                                <h3>+77762508883</h3>
+                                <span>
+                                    Свяжитесь с нами 24/7 для консультации по
+                                    созданию комфортного и эргономичного
+                                    пространства
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="font-dancing-script text-primary">
+                            Наш подход
+                        </h1>
+                        <h1 class="mb-5">
+                            Как мы организуем комфортное пространство
+                        </h1>
+                        <p class="mb-4">
+                            ProstranstvoMax сочетает практичность и эстетику,
+                            создавая уютные, эргономичные и функциональные
+                            интерьеры. Мы учитываем современные тенденции
+                            дизайна 2025 года и формируем зоны комфорта для
+                            максимального удобства.
+                        </p>
+                        <div class="row g-3 mb-5">
+                            <div class="col-sm-6">
+                                <div class="bg-light text-center p-4">
+                                    <i
+                                        class="fas fa-calendar-alt fa-4x text-primary"
+                                    ></i>
+                                    <h1
+                                        class="display-5"
+                                        data-toggle="counter-up"
+                                    >
+                                        10
+                                    </h1>
+                                    <p class="text-dark text-uppercase mb-0">
+                                        Лет опыта
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="bg-light text-center p-4">
+                                    <i
+                                        class="fas fa-users fa-4x text-primary"
+                                    ></i>
+                                    <h1
+                                        class="display-5"
+                                        data-toggle="counter-up"
+                                    >
+                                        850
+                                    </h1>
+                                    <p class="text-dark text-uppercase mb-0">
+                                        Довольных клиентов
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <a
+                            class="btn btn-primary text-uppercase px-5 py-3"
+                            href="about.html"
+                            >Подробнее</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Approach End -->
+
+        <!-- Service Start -->
+        <div class="container-fluid service py-5">
+            <div class="container">
+                <div class="text-center wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="font-dancing-script text-primary">
+                        Наши услуги
+                    </h1>
+                    <h1 class="mb-5">Что мы предлагаем</h1>
+                </div>
+                <div class="row g-4 g-md-0 text-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div
+                            class="service-item h-100 p-4 border-bottom border-end wow fadeIn"
+                            data-wow-delay="0.1s"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="img/haircut.png"
+                                alt=""
+                            />
+                            <h3 class="mb-3">Зонирование помещений</h3>
+                            <p class="mb-3">
+                                Создаем комфортные зоны для работы, отдыха и
+                                общения с учетом эргономики и гармонии
+                                интерьера.
+                            </p>
+                            <a
+                                class="btn btn-sm btn-primary text-uppercase"
+                                href="contact.html"
+                                >Подробнее <i class="bi bi-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div
+                            class="service-item h-100 p-4 border-bottom border-lg-end wow fadeIn"
+                            data-wow-delay="0.3s"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="img/makeup.png"
+                                alt=""
+                            />
+                            <h3 class="mb-3">Эргономика мебели</h3>
+                            <p class="mb-3">
+                                Консультируем по выбору мебели и оптимальному
+                                расположению предметов для максимального
+                                комфорта.
+                            </p>
+                            <a
+                                class="btn btn-sm btn-primary text-uppercase"
+                                href="contact.html"
+                                >Подробнее <i class="bi bi-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div
+                            class="service-item h-100 p-4 border-bottom border-end border-lg-end-0 wow fadeIn"
+                            data-wow-delay="0.5s"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="img/manicure.png"
+                                alt=""
+                            />
+                            <h3 class="mb-3">Свет и цвет</h3>
+                            <p class="mb-3">
+                                Подбираем освещение и цветовые решения для
+                                создания уютной и гармоничной атмосферы в каждом
+                                помещении.
+                            </p>
+                            <a
+                                class="btn btn-sm btn-primary text-uppercase my-2"
+                                href="contact.html"
+                                >Подробнее <i class="bi bi-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div
+                            class="service-item h-100 p-4 border-bottom border-lg-bottom-0 border-lg-end wow fadeIn"
+                            data-wow-delay="0.1s"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="img/pedicure.png"
+                                alt=""
+                            />
+                            <h3 class="mb-3">Функциональные пространства</h3>
+                            <p class="mb-3">
+                                Разрабатываем проекты, которые объединяют
+                                практичность, эстетику и современные тенденции
+                                интерьера.
+                            </p>
+                            <a
+                                class="btn btn-sm btn-primary text-uppercase"
+                                href="contact.html"
+                                >Подробнее <i class="bi bi-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div
+                            class="service-item h-100 p-4 border-end wow fadeIn"
+                            data-wow-delay="0.3s"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="img/massage.png"
+                                alt=""
+                            />
+                            <h3 class="mb-3">
+                                Организация маленьких пространств
+                            </h3>
+                            <p class="mb-3">
+                                Помогаем создавать удобство даже в квартирах до
+                                30 квадратных метров с помощью зонирования и
+                                функциональной мебели.
+                            </p>
+                            <a
+                                class="btn btn-sm btn-primary text-uppercase"
+                                href="contact.html"
+                                >Подробнее <i class="bi bi-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div
+                            class="service-item h-100 p-4 wow fadeIn"
+                            data-wow-delay="0.5s"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="img/skin-care.png"
+                                alt=""
+                            />
+                            <h3 class="mb-3">Минимализм и порядок</h3>
+                            <p class="mb-3">
+                                Подсказываем, как избавиться от лишнего и
+                                создать свободное пространство для дыхания и
+                                отдыха.
+                            </p>
+                            <a
+                                class="btn btn-sm btn-primary text-uppercase"
+                                href="contact.html"
+                                >Подробнее <i class="bi bi-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Why Choose Us Start -->
+        <div class="container-fluid price px-0 py-5">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center h-100 bg-primary p-5">
+                        <div class="wow fadeIn" data-wow-delay="0.3s">
+                            <h1 class="font-dancing-script text-white">
+                                Почему выбирают нас
+                            </h1>
+                            <h1 class="mb-0">ProstranstvoMax</h1>
+                            <h1
+                                class="display-1 text-uppercase mb-5"
+                                style="letter-spacing: 10px"
+                            >
+                                Комфорт
+                            </h1>
+                            <div class="row g-4 align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="text-center bg-dark p-5">
+                                        <h4 class="text-white">Эргономика</h4>
+                                        <h1
+                                            class="display-1 font-work-sans text-white"
+                                        >
+                                            100%
+                                        </h1>
+                                        <p class="fs-2 text-white mb-0">
+                                            Удобство
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>
+                                        Мы разрабатываем интерьеры, где каждый
+                                        элемент продуман для максимального
+                                        комфорта, учитывая свет, цвет, мебель и
+                                        зонирование.
+                                    </p>
+                                    <a class="btn btn-dark" href="contact.html"
+                                        >Узнать больше</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 bg-dark p-5">
+                        <div
+                            class="price-item mb-3 wow fadeIn"
+                            data-wow-delay="0.1s"
+                        >
+                            <img
+                                class="img-fluid flex-shrink-0"
+                                src="img/price-1.jpg"
+                                alt=""
+                            />
+                            <div class="text-end px-4">
+                                <h6 class="text-uppercase text-primary">
+                                    Зонирование
+                                </h6>
+                                <h3 class="text-white font-work-sans mb-0">
+                                    Комфортные зоны
+                                </h3>
+                            </div>
+                        </div>
+                        <div
+                            class="price-item mb-3 wow fadeIn"
+                            data-wow-delay="0.2s"
+                        >
+                            <img
+                                class="img-fluid flex-shrink-0"
+                                src="img/price-2.jpg"
+                                alt=""
+                            />
+                            <div class="text-end px-4">
+                                <h6 class="text-uppercase text-primary">
+                                    Мебель и расстановка
+                                </h6>
+                                <h3 class="text-white font-work-sans mb-0">
+                                    Эргономичные решения
+                                </h3>
+                            </div>
+                        </div>
+                        <div
+                            class="price-item mb-3 wow fadeIn"
+                            data-wow-delay="0.3s"
+                        >
+                            <img
+                                class="img-fluid flex-shrink-0"
+                                src="img/price-3.jpg"
+                                alt=""
+                            />
+                            <div class="text-end px-4">
+                                <h6 class="text-uppercase text-primary">
+                                    Свет и цвет
+                                </h6>
+                                <h3 class="text-white font-work-sans mb-0">
+                                    Уютная атмосфера
+                                </h3>
+                            </div>
+                        </div>
+                        <div
+                            class="price-item mb-3 wow fadeIn"
+                            data-wow-delay="0.4s"
+                        >
+                            <img
+                                class="img-fluid flex-shrink-0"
+                                src="img/price-4.jpg"
+                                alt=""
+                            />
+                            <div class="text-end px-4">
+                                <h6 class="text-uppercase text-primary">
+                                    Функциональные решения
+                                </h6>
+                                <h3 class="text-white font-work-sans mb-0">
+                                    Практичность и эстетика
+                                </h3>
+                            </div>
+                        </div>
+                        <div
+                            class="price-item mb-3 wow fadeIn"
+                            data-wow-delay="0.5s"
+                        >
+                            <img
+                                class="img-fluid flex-shrink-0"
+                                src="img/price-5.jpg"
+                                alt=""
+                            />
+                            <div class="text-end px-4">
+                                <h6 class="text-uppercase text-primary">
+                                    Малые пространства
+                                </h6>
+                                <h3 class="text-white font-work-sans mb-0">
+                                    Комфорт даже в 30 м²
+                                </h3>
+                            </div>
+                        </div>
+                        <div
+                            class="price-item mb-3 wow fadeIn"
+                            data-wow-delay="0.6s"
+                        >
+                            <img
+                                class="img-fluid flex-shrink-0"
+                                src="img/price-6.jpg"
+                                alt=""
+                            />
+                            <div class="text-end px-4">
+                                <h6 class="text-uppercase text-primary">
+                                    Минимализм и порядок
+                                </h6>
+                                <h3 class="text-white font-work-sans mb-0">
+                                    Свободное пространство
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Why Choose Us End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn"
+            data-wow-delay="0.2s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 pe-lg-5">
+                        <a href="index.html" class="navbar-brand">
+                            <h1 class="display-5 text-primary mb-0">
+                                ProstranstvoMax
+                            </h1>
+                        </a>
+                        <p>
+                            Мы создаем интерьеры, где каждый элемент продуман
+                            для максимального комфорта, эргономики и гармонии
+                            пространства. Наши решения помогают организовать
+                            зоны отдыха, работы и общения в доме.
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-2"></i>ул.
+                            Примерная 16, Москва 101000, Россия
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-2"></i>+77762508883
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope me-2"></i
+                            >prostranstvo_max@gmail.com
+                        </p>
+                        <div class="d-flex justify-content-start mt-4">
+                            <a
+                                class="btn btn-sm-square btn-primary me-3"
+                                href="https://twitter.com/"
+                                ><i class="fab fa-twitter"></i
+                            ></a>
+                            <a
+                                class="btn btn-sm-square btn-primary me-3"
+                                href="https://facebook.com/"
+                                ><i class="fab fa-facebook-f"></i
+                            ></a>
+                            <a
+                                class="btn btn-sm-square btn-primary me-3"
+                                href="https://linkedin.com/company/"
+                                ><i class="fab fa-linkedin-in"></i
+                            ></a>
+                            <a
+                                class="btn btn-sm-square btn-primary me-3"
+                                href="https://instagram.com/"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ps-lg-5">
+                        <div class="row g-4">
+                            <div class="col-sm-6">
+                                <h5 class="text-primary mb-4">
+                                    Быстрые ссылки
+                                </h5>
+                                <a class="btn btn-link" href="about.html"
+                                    >О нас</a
+                                >
+                                <a class="btn btn-link" href="contact.html"
+                                    >Контакты</a
+                                >
+                                <a class="btn btn-link" href="blog.html"
+                                    >Блог</a
+                                >
+                                <a class="btn btn-link" href="terms-of-use.html"
+                                    >Условия использования</a
+                                >
+                            </div>
+                            <div class="col-sm-6">
+                                <h5 class="text-primary mb-4">
+                                    Популярные ссылки
+                                </h5>
+                                <a
+                                    class="btn btn-link"
+                                    href="business-model.html"
+                                    >Бизнес-модель</a
+                                >
+                                <a
+                                    class="btn btn-link"
+                                    href="cookie-policy.html"
+                                    >Политика Cookie</a
+                                >
+                                <a
+                                    class="btn btn-link"
+                                    href="privacy-policy.html"
+                                    >Политика конфиденциальности</a
+                                >
+                            </div>
+                            <div class="col-sm-12">
+                                <h5 class="text-primary mb-4">
+                                    Подписка на новости
+                                </h5>
+                                <form action="thanks.html" method="get">
+                                    <div class="position-relative w-100 mb-2">
+                                        <input
+                                            class="form-control bg-secondary border-0 w-100 ps-4 pe-5"
+                                            type="email"
+                                            placeholder="Введите ваш email"
+                                            style="height: 60px; color: #fff"
+                                            required
+                                        />
+
+                                        <button
+                                            type="submit"
+                                            class="btn shadow-none position-absolute top-0 end-0 mt-2 me-2"
+                                        >
+                                            <i
+                                                class="fa fa-paper-plane text-primary fs-4"
+                                            ></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Disclaimer Start -->
+        <div
+            class="container-fluid bg-dark text-white border-top border-secondary py-4 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center mb-0">
+                        Данный сайт предназначен исключительно для демонстрации
+                        идей по организации пространства, эргономике и созданию
+                        комфортных зон в интерьере 2025 года. Любая информация
+                        носит справочный характер и не является персональной
+                        рекомендацией. Использование материалов сайта
+                        осуществляется на ваш страх и риск.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Disclaimer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center; color: #fff">Политика Cookie</h2>
+            </div>
+
+            <div class="data">
+                <p style="color: #fff">
+                    Этот сайт использует файлы cookie для обеспечения
+                    комфортного взаимодействия. Cookies — это небольшие
+                    текстовые файлы, которые сохраняются на вашем устройстве и
+                    помогают организовать функциональные и удобные зоны на
+                    сайте, а также собирать анонимную статистику. Используя наш
+                    сайт, вы соглашаетесь с использованием cookie в соответствии
+                    с нашей <a href="cookie-policy.html">политикой cookie</a>.
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
