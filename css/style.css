@@ -261,10 +261,6 @@
     color: var(--bs-white);
 }
 
-.page-header {
-    background: url(../img/page-header.jpg) center center no-repeat;
-    background-size: contain;
-}
 
 
 /*** Service ***/
